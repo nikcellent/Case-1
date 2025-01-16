@@ -240,7 +240,7 @@ SELECT employer,
        ROUND(AVG(salary_from), 2) AS avg_salary_from,
        ROUND(AVG(salary_to), 2) AS avg_salary_to,
        employment,
-       employment
+       schedule
 FROM public.parcing_table 
 WHERE name LIKE '%Аналитик данных%' OR name LIKE '%Системный аналитик%'
 GROUP BY employer, employment, schedule 
