@@ -1,4 +1,4 @@
-# Education case 1
+# educational case 1
 *Выполнен самостоятельно*
 
 ### Задачи:
